@@ -5,10 +5,32 @@ y necesito consentrarme
 Inventare cosas ...
 
 
-0.216 git init
-   3        2.128 gh repo create juegosLaravel --public --source=.
-   4        0.762 git add .
-   5        1.042 git commit -m "Este es el resultado de solo usar laravel new NameProject"
-   6        0.978 git push -u origin main
-   7        0.188 git branch -M main   <--Hay que investigar como podemos crear  main desde el principio
-   8        4.033 git push -u origin main
+pwd
+cd .\ProgramingCourse\
+laravel new juegosLaravel
+cd .\juegosLaravel\
+code .
+git init
+gh repo create juegosLaravel --public --source=.
+git add .
+git commit -m "Este es el resultado de solo usar laravel new NameProject"
+git push -u origin main
+git branch -M main
+git push -u origin main
+history
+composer require livewire/livewire
+git add .
+git commit -m "Esto cambio"
+git push -u origin main
+php artisan make:livewire counter
+git add .
+git commit -m "We used php artisan make:livewire counter"
+git push -u origin main
+
+Creamos un nuevo componente de livewire --> php artisan make:livewire counter
+      Como dice en la documentacion
+         Se crean dos archivos Counter.php y counter.blade.php
+
+
+
+
